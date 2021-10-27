@@ -1,7 +1,7 @@
 import java.util.*;
 import java.lang.*;
 import java.io.*;
-public class LuckyNumber
+public class Main
 	{
 	static class FastReader
 		{
@@ -51,20 +51,16 @@ public class LuckyNumber
 	public static void main (String[] args) throws java.lang.Exception
 		{
 		FastReader sc = new FastReader();
-		int t = sc.nextInt();
-		while(t-- > 0)
+		int withdrawal = sc.nextInt();
+		double total = sc.nextDouble();
+		if((withdrawal+0.50<=total)&&(withdrawal%5==0))
 			{
-			int A = sc.nextInt();
-			int B = sc.nextInt();
-			int C = sc.nextInt();
-			if(A==7 || B==7 || C==7)
-				{
-				System.out.println("YES");
-				}
-			else
-				{
-				System.out.println("NO");
-				}
+			total=total-(withdrawal+0.50);
+			System.out.printf("%.2f",total);
+			}
+		else
+			{
+			System.out.printf("%.2f",total);
 			}
 		}
 	}
