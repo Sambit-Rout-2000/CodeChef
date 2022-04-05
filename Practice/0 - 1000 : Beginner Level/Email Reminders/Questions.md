@@ -1,7 +1,7 @@
 # Email Reminders | Problem Code: EMAILREM
 
 
-MoEngage helps the Chef send email reminders about rated contests to the participants.
+MoEngage helps the Chef send email reminders about rated contests to the participants._
 There are a total of **_N_** participants on Chef’s platform, and **_U_** of them have told Chef not to send emails to them.
 If so, how many participants should MoEngage send the contest emails to?
 
