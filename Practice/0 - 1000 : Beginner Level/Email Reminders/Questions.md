@@ -7,30 +7,30 @@ If so, how many participants should MoEngage send the contest emails to?<br/>
 
 **Input Format**<br/>
 > The first and only line of input will contain a single line containing two space-separated integers ***N*** (the total number of users) and ***U*** (the number of users who don't want to receive contest reminders).<br/>
-######**Output Format**<br/>
->Output in a single line, the number of users MoEngage has to send an email to.<br/>
+**Output Format**<br/>
+> Output in a single line, the number of users MoEngage has to send an email to.<br/>
 
-###**Constraints**
-**1 ≤ _U_ < _N_ ≤ 105**
-###**Sample Input : 1**
-####**100 7**
-###**Sample Output : 1** 
-####**93**
+**Constraints**<br/>
+> **1 ≤ _U_ < _N_ ≤ 105**<br/>
+**Sample Input : 1**<br/>
+> **100 7**<br/>
+**Sample Output : 1**<br/>
+> **93**<br/>
 
-###**Explanation**
-Out of 100 users, 7 do not want to receive reminders. Hence, MoEngage needs to send email to 93 users.
+**Explanation**<br/>
+> Out of 100 users, 7 do not want to receive reminders. Hence, MoEngage needs to send email to 93 users.<br/>
 
-###**Solution**
-####**_U_ - _N_ = _ans_**
-####**_100_ - _7_ = _93_**
+**Solution**
+> **_U_ - _N_ = _ans_**
+> **_100_ - _7_ = _93_**
 
-###**Sample Input : 2 **
-####**4456 342**
-###**Sample Output : 2 **
-####**4114**
+**Sample Input : 2 **
+> ####**4456 342**
+**Sample Output : 2 **
+> **4114**
 
-###**Explanation**
-Out of 4456 users, 342 do not want to receive reminders. Hence MoEngage needs to send email to 4114 users.
+**Explanation**
+> Out of 4456 users, 342 do not want to receive reminders. Hence MoEngage needs to send email to 4114 users.
 
 ###**Solution**
 ####**_U_ - _N_ = _ans_**
