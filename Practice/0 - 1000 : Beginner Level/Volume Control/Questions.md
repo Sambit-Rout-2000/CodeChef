@@ -26,8 +26,10 @@ Chef is watching TV. The current volume of the TV is **_X_**. Pressing the volum
 **Test Case 2 :** Chef can press the volume down button **2** times to decrease the volume from **12** to **10**.
 
 #### Solution <br/>
-**If X>=Y then X-Y <br/>
-else Y>X then Y-X** <br/>
+
+**If _X_ >= _Y_ then _X_ - _Y_ <br/>
+else _Y_ > _X_ then _Y_ - _X_** <br/>
+
 **Test Case 1 :**
 - _Y_ - _X_ = _ans_<br/>
 - _54_ - _50_ = _4_
