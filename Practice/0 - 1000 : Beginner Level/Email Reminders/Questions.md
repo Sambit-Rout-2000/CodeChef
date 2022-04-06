@@ -16,14 +16,14 @@ If so, how many participants should MoEngage send the contest emails to?
 - 100 7<br/>
 #### Sample Output : 1<br/>
 - 93<br/>
-
 #### Explanation<br/>
 - Out of 100 users, 7 do not want to receive reminders. Hence, MoEngage needs to send email to 93 users.<br/>
-
 #### Solution<br/>
 - **_U_ - _N_ = _ans_**<br/>
 - **_100_ - _7_ = _93_**<br/>
 <br/>
+
+
 #### Sample Input : 2<br/>
 - 4456 342<br/>
 #### Sample Output : 2<br/>
