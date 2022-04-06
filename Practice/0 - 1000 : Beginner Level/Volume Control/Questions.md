@@ -5,19 +5,26 @@ Chef is watching TV. The current volume of the TV is **_X_**. Pressing the volum
 
 #### Input Format
 - The first line contains a single integer T - the number of test cases. Then the test cases follow.
-- The first and only line of each test case contains two integers X and Y - the initial volume and final volume of the TV.
+- The first and only line of each test case contains two integers **_X_** and **_Y_** - the initial volume and final volume of the TV.
+ 
 #### Output Format
-- For each test case, output the minimum number of times Chef has to press a button to change the volume from X to Y.
+- For each test case, output the minimum number of times Chef has to press a button to change the volume from **_X_** to **_Y_**.
+
+#### Constraints
+- **1 ≤ _T_ ≤ 100**
+- **1 ≤ _X,Y_ ≤ 100**
+
 #### Sample Input 1 
-2
-50 54
-12 10
+2 <br/>
+50 54 <br/>
+12 10 <br/>
+
 #### Sample Output 1 
-4
-2
+4 <br/>
+2 <br/>
+
 ### Explanation
-#### Test Case 1:
-Chef can press the volume up button 4 times to increase the volume from 50 to 54.
+#### Test Case 1: **Chef can press the volume up button 4 times to increase the volume from 50 to 54.**
 
 #### Test Case 2:
 Chef can press the volume down button 2 times to decrease the volume from 12 to 10.
