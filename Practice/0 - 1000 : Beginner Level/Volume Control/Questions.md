@@ -24,3 +24,14 @@ Chef is watching TV. The current volume of the TV is **_X_**. Pressing the volum
 ### Explanation
 **Test Case 1 :** Chef can press the volume up button **4** times to increase the volume from **50** to **54**.<br/>
 **Test Case 2 :** Chef can press the volume down button **2** times to decrease the volume from **12** to **10**.
+
+#### Solution <br/>
+**If X>=Y then X-Y <br/>
+else Y>X then Y-X** <br/>
+**Test Case 1 :**
+- _Y_ - _X_ = _ans_<br/>
+- _54_ - _50_ = _4_
+
+**Test Case 2 :**
+- _X_ - _Y_ = _ans_<br/>
+- _12_ - _10_ = _2_
