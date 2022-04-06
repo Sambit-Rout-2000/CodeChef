@@ -4,7 +4,7 @@
 Chef is watching TV. The current volume of the TV is **_X_**. Pressing the volume up button of the TV remote increases the volume by **_1_** while pressing the volume down button decreases the volume by **_1_**. Chef wants to change the volume from **_X_** to **_Y_**. Find the minimum number of button presses required to do so.<br/>
 
 #### Input Format
-- The first line contains a single integer T - the number of test cases. Then the test cases follow.
+- The first line contains a single integer **T** - the number of test cases. Then the test cases follow.
 - The first and only line of each test case contains two integers **_X_** and **_Y_** - the initial volume and final volume of the TV.
  
 #### Output Format
@@ -24,7 +24,5 @@ Chef is watching TV. The current volume of the TV is **_X_**. Pressing the volum
 2 <br/>
 
 ### Explanation
-#### Test Case 1: **Chef can press the volume up button 4 times to increase the volume from 50 to 54.**
-
-#### Test Case 2:
-Chef can press the volume down button 2 times to decrease the volume from 12 to 10.
+**Test Case 1 :** Chef can press the volume up button **4** times to increase the volume from **50** to **54**.
+**Test Case 2 :** Chef can press the volume down button **2** times to decrease the volume from **12** to **10**.
