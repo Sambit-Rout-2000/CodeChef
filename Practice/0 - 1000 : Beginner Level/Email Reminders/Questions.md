@@ -11,7 +11,7 @@ If so, how many participants should MoEngage send the contest emails to?
 - Output in a single line, the number of users MoEngage has to send an email to.<br/>
 
 #### Constraints<br/>
-- 1 ≤ _U_ < _N_ ≤ 105**<br/>
+- 1 ≤ _U_ < _N_ ≤ 105<br/>
 #### Sample Input : 1<br/>
 - 100 7<br/>
 #### Sample Output : 1<br/>
