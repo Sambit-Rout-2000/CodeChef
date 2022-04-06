@@ -1,8 +1,8 @@
 # Email Reminders | Problem Code : EMAILREM
 
 
-MoEngage helps the Chef send email reminders about rated contests to the participants.<br/><br/>
-There are a total of **_N_** participants on Chef’s platform, and **_U_** of them have told Chef not to send emails to them.<br/><br/>
+MoEngage helps the Chef send email reminders about rated contests to the participants.<br/>
+There are a total of **_N_** participants on Chef’s platform, and **_U_** of them have told Chef not to send emails to them.<br/>
 If so, how many participants should MoEngage send the contest emails to?
 
 #### Input Format<br/>
@@ -23,7 +23,7 @@ If so, how many participants should MoEngage send the contest emails to?
 #### Solution<br/>
 - **_U_ - _N_ = _ans_**<br/>
 - **_100_ - _7_ = _93_**<br/>
-
+<br/>
 #### Sample Input : 2<br/>
 - 4456 342<br/>
 #### Sample Output : 2<br/>
