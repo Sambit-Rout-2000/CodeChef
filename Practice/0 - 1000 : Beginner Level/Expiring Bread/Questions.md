@@ -13,6 +13,7 @@ Eikooc loves bread. She has **_N_** loaves of bread, all of which expire after e
 ### Constraints
 **1 ≤ _T_ ≤ 1000**
 **1 ≤ N, M, K ≤ 100**
+
 ### Sample Input 1 
 3<br/>
 100 100 1 <br/>
@@ -26,7 +27,7 @@ No<br/>
 
 ### Explanation
 **Test case 1:** Eikooc can eat one loaf of bread per day for **100** days. Thus none of the bread expires.<br/>
-
+<br/>
 **Test case 2:** Eikooc can eat **5** loaves of the first day and **4** loaves on the second day. Thus none of the bread expires.<br/>
-
+<br/>
 **Test case 3:** There is no way Eikooc can consume all the loaves of bread before it expires.
