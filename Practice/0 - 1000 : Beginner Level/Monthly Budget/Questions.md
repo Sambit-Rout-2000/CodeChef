@@ -39,7 +39,10 @@ YES<br/>
 #### Solution<br/>
 **Test Case 1:** if (Y * 30 <= X) print("YES"); <br/>
 		 - 10 * 30  <=1000 so that it print **YES**.<br/>
+		 
 **Test Case 2:** if (Y * 30 >= X) print("NO"); <br/>
 		 - 50 * 30  >=250 so that it print **NO**.<br/>
+		 
 **Test Case 3:** if (Y * 30 <= X) print("YES"); <br/>
 		 - 50 * 30  <=1000 so that it print **YES**.<br/>
+		 
